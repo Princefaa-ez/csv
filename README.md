@@ -32,7 +32,7 @@
       <h2>Quick links</h2>
       <p>Replace <code>username</code> and <code>repo</code> with your GitHub info.</p>
       <pre><code>Raw CSV URL:
-https://raw.githubusercontent.com/username/repo/main/data/example.csv
+https://raw.githubusercontent.com/princefaa-ez/csv/main/audi.csv
 
 Raw JSON URL:
 https://raw.githubusercontent.com/username/repo/main/json/example.json
@@ -44,7 +44,7 @@ https://raw.githubusercontent.com/username/repo/main/json/example.json
       <h3>Python (pandas)</h3>
       <pre><code>import pandas as pd
 
-url = "https://raw.githubusercontent.com/username/repo/main/data/example.csv"
+url = "https://raw.githubusercontent.com/princefaa-ez/csv/main/audi.csv"
 df = pd.read_csv(url)
 print(df.head())
 </code></pre>
@@ -55,7 +55,7 @@ print(df.head())
   .catch(err => console.error(err))
 </code></pre>
       <h3>cURL (download)</h3>
-      <pre><code>curl -O https://raw.githubusercontent.com/username/repo/main/data/example.csv
+      <pre><code>curl -O https://raw.githubusercontent.com/princefaa-ez/csv/main/audi.csv
 </code></pre>
     </section>
     <section>
