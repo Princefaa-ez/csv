@@ -31,6 +31,7 @@
     <section>
       <h2>Quick links</h2>
       <p>Replace <code>username</code> and <code>repo</code> with your GitHub info.</p>
+      <p>Here I have used "princefaa-ez" as the username and "csv" as the repo</p>
       <pre><code>Raw CSV URL:
 https://raw.githubusercontent.com/princefaa-ez/csv/main/audi.csv
 
