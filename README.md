@@ -35,7 +35,7 @@
 https://raw.githubusercontent.com/princefaa-ez/csv/main/audi.csv
 
 Raw JSON URL:
-https://raw.githubusercontent.com/username/repo/main/json/example.json
+https://raw.githubusercontent.com/princefaa-ez/csv/main/audi.json
 </code></pre>
     </section>
     <section>
@@ -49,7 +49,7 @@ df = pd.read_csv(url)
 print(df.head())
 </code></pre>
       <h3>JavaScript (fetch)</h3>
-      <pre><code>fetch("https://raw.githubusercontent.com/username/repo/main/json/example.json")
+      <pre><code>fetch("https://raw.githubusercontent.com/princefaa-ez/csv/main/audi.json")
   .then(res => res.json())
   .then(data => console.log(data))
   .catch(err => console.error(err))
